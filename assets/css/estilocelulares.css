@@ -1,0 +1,108 @@
+/* formatações gerais*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*formatações gerais do layout*/
+#area-cabecalho{
+    background-color: #00df6f;
+    padding: 15xp;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 1500px;
+    margin: 0;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 1050px;
+    float: left;
+}
+
+#area-lateral{
+    width: 450px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.conteudo-lateral{
+    background-color: #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 12px;
+    padding: 5px;
+    border-bottom: 5px dotted #00df6f;
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+    clear: both;
+}
+
+/*formatação do menu*/
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: #00df6f;
+}
+
+#area-cabecalho a:visited{
+    color: #fff;
+    padding: 15px;
+}
+
+#area-cabecalho a:hover{
+    color: #00df6f;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/*estilos gerais*/
+h1{
+    color: #4e4e4e;
+    font-size: 25px;
+}
+
+h2{
+    color: #00df6f;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.branco{
+    color: #fff;
+}
+
+.data-postagem{
+    font-size: 12px;
+    display: block;
+}
